@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 2 Bootstrap - FAq</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div>
+        <h1>FAQ</h1>
+    </div>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Czym jest Bootstrap
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Bootstrap – biblioteka CSS, rozwijana przez programistów Twittera,
+                    wydawany
+                    na licencji MIT[1]. Zawiera zestaw przydatnych narzędzi ułatwiających tworzenie interfejsu
+                    graficznego stron oraz aplikacji internetowych. Bazuje głównie na gotowych rozwiązaniach HTML
+                    oraz
+                    CSS (kompilowanych z plików Less[2]) i może być stosowany m.in. do stylizacji takich elementów
+                    jak
+                    teksty, formularze, przyciski, wykresy, nawigacje i innych komponentów wyświetlanych na stronie.
+                    Biblioteka korzysta także z języka JavaScript.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Czym jest framework?
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Framework albo platforma programistyczna – szkielet do budowy aplikacji.
+                    Definiuje on strukturę aplikacji oraz ogólny mechanizm jej działania, a także dostarcza zestaw
+                    komponentów i bibliotek ogólnego przeznaczenia do wykonywania określonych zadań. Programista
+                    tworzy
+                    aplikację, rozbudowując i dostosowując poszczególne komponenty do wymagań realizowanego
+                    projektu,
+                    tworząc w ten sposób gotową aplikację.
+
+                    Frameworki bywają niekiedy błędnie zaliczane do bibliotek programistycznych. Typowe cechy, które
+                    każą wyróżniać je jako samodzielną kategorię oprogramowania, to:
+
+                    odwrócenie sterowania – w odróżnieniu od aplikacji oraz bibliotek, przepływ sterowania jest
+                    narzucany przez framework, a nie przez użytkownika[1][2].
+                    domyślne zachowanie – domyślna konfiguracja frameworka musi być użyteczna i dawać sensowny
+                    wynik,
+                    zamiast być zbiorem pustych operacji do nadpisania przez programistę[1].
+                    rozszerzalność – poszczególne komponenty frameworka powinny być rozszerzalne przez programistę,
+                    jeśli ten chce rozbudować je o niezbędne mu dodatkowe funkcje.
+                    zamknięta struktura wewnętrzna – programista może rozbudowywać framework, ale nie poprzez
+                    modyfikację domyślnego kodu.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Czym jest jQuery?
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">jQuery – lekka biblioteka programistyczna dla języka JavaScript,
+                    ułatwiająca
+                    korzystanie z JavaScriptu (w tym manipulację drzewem DOM). Kosztem niewielkiego spadku
+                    wydajności w
+                    stosunku do profesjonalnie napisanego kodu w niewspomaganym JavaScripcie pozwala osiągnąć
+                    interesujące efekty animacji, dodać dynamiczne zmiany strony, wykonać zapytania AJAX. Większość
+                    wtyczek i skryptów opartych na jQuery działa na stronach nie wymagając zmian w kodzie HTML (np.
+                    zamienia klasyczne galerie złożone z miniatur linkujących do obrazków w dynamiczną galerię).
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
