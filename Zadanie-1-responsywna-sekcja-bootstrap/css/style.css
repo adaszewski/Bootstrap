@@ -1,0 +1,9 @@
+.circle {
+    font-size: 100px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    color: orange;
+    background-color: lightgray;
+    border-radius: 50%;
+ }
